@@ -1,15 +1,91 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Food2Animal</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+  <link rel="stylesheet" href="style.css" media="screen">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+        <header>
+<!-- <h1 class="logo"> </h1> -->
+<div class="navbar">
+  <header>
+    <nav>
+      <ul>
+       <li><a href="index.html"> Home </a> </li>
+        <li> <a href="about.html"> About </a></li>
+       <li> <a href="multisource.html"> Sources </a></li>
+       <!-- <li> <a href="https://api.freelogodesign.org/files/fd5737a4cb494709b2331032053c6615/thumb/logo_200x200.png?v=0"> </li> -->
+      </ul>
+   </nav>
+</div>
+</header>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>FoodToAnimal</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <center><h1>Help save birds and animals from choking and diseases!</h1></center>
+    <h3 class="direction"><center><b>Choose a food item, and it will tell you what animals can't eat that food.</b></center></h3>
+    <br>
 
-<body>
+    
+  </head>
 
-<h1>This is the heading</h1>
-<p>This is the paragraph.</p>
-<p>This is the paragraph.</p>
+  <body>
+    <script src="script.js"></script>
+    <center>
+    <!-- <label for="food"><center><h2>Choose a food item:</h2></center></label> -->
+    <!-- <input type="text" id="food" placeholder="Capitilize the first letter of the food!" required size="29" width="100" > -->
+    <select class="foodDropdown" name="food" id="food" onchange="getAnimalFromFood()">
+    <option value="">Select a food item</option>
+    <option value="avacado">Avacado</option>
+    <option value="bread">Bread</option>
+    <option value="bc">Breakfast Cereal</option>
+    <option value="candy">Candy</option>
+    <option value="cd">Carbonated Drinks</option>
+    <option value="citrus fruits">Citrus Fruits</option>
+    <option value="chocolate">Chocolate</option>
+    <option value="corn">Corn</option>
+    <option value="df">Dried Fruits</option>
+    <option value="milk">Milk</option>
+    <option value="nuts">Nuts</option>
+    <option value="pasta">Pasta</option>
+    <option value="Peanuts">Peanuts</option>
+    <option value="pizza">Pizza</option>
+    <option value="onions">Onions</option>
+    <option value="rice">Rice</option>
+    
+    </select>
 
-</body>
+<!-- <button class="Enter"
+        onclick="getAnimalFromFood()"
+        type="button">
+    ENTER
+</button> -->
+    <h3 id="output"> </h3>
+    <!-- <button class="Enter"
+        onclick="getAnimalFromFood()"
+        type="button">
+    ENTER
+</button> -->
+</center>
+<br>
+<br>
+
+
+
+<center>
+<img class="home_img" src="https://media.istockphoto.com/photos/summer-picnic-concept-on-sunny-day-with-watermelon-fruit-bouquet-and-picture-id1312276732?b=1&k=20&m=1312276732&s=170667a&w=0&h=k9JLBR-bt16XZYIazroNp7p0okw4Uty_D20LZIkzFFI=">
+</img>
+
+&nbsp;
+&nbsp;
+&nbsp;
+<img class="home_img" src="https://media.istockphoto.com/photos/red-squirrel-looking-around-a-tree-picture-id466395505?b=1&k=20&m=466395505&s=170667a&w=0&h=M9Z_hImP4nv1GnZsPm0t3jvs2sz_7OtJzPuvR17tGQI="> 
+</img>
+<!-- <img class="picnic" src="https://www.bettycrocker.com/-/media/Images/BC/content/menus-holidays-parties/parties-and-get-togethers/modern-picnic-ideas/Modern-Picnics.jpg"> </img> -->
+
+<!-- <div class="border-box"><b>Sources:</b>     <a href="https://blog.education.nationalgeographic.org/2017/03/27/stop-feeding-ducks-bread/"> National Geographic,</a> -->
+
+
+ </body>
 </html>

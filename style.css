@@ -1,3 +1,118 @@
-p{
-    background-color: blue;
-}
+body{
+    background-color:#a3ff39b6;
+    margin:0;
+    padding:0;
+  font-family: 'Nunito', sans-serif;
+  }
+  
+  
+  .navbar {
+    background: #66ec7d;
+    text-align:center;
+  }
+  
+  .navbar::after {
+    display: table;
+    clear: both;
+  }
+  
+  
+  nav ul {
+    margin: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: relative;
+  }
+  
+  nav a {
+    color: #0f7920;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  
+  nav a:hover {
+    color: #000;
+  
+  
+  }
+  
+  
+  nav a::before {
+    content: '';
+    display: block;
+    height: 4px;
+    background-color: rgb(14, 58, 0);
+   
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in 150ms;
+  }
+  
+  nav a:hover::before {
+    width: 100%;
+  }
+  
+  .food{
+    width: 15%;
+    height: 15%;
+    
+  }
+  
+  .animal{
+    width: 20%;
+    height: 20%;
+  }
+  
+  .credible{
+    width: 20%;
+    float: right;
+  }
+  
+  .foodDropdown
+  {
+    font-size: 25px;
+    color: #006400;
+    background-color: #66ec7d;
+    border: none;
+  /*   border: solid #006400 2.5px; */
+    border-radius: 10px;
+    padding: 10px;
+    
+  }
+  
+  .home_img{
+    border: solid #006400 2px;
+  }
+  
+  a{
+    color: #0f7920;
+  }
+  
+  .line{
+    border-top: solid 2px #0f7920;
+    margin: 30px;
+  }
+  
+  .direction{
+    border: solid 3px #0f7920;
+    margin: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 10px;
+  }
+  
+  /* .paras{
+    font-size: 40px;
+  } */
+  
+  /* .sources{
+    text-size: 50px;
+  } */
