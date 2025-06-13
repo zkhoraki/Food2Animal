@@ -12,6 +12,9 @@ let food;
     if (food == "chocolate"){
       document.getElementById("output").innerHTML = "You should not feed chocolate to ducks, squirrels, dogs, cats, and birds.";
     }
+    if(food == "cheese"){
+        document.getElementById("output").innerHTML = 'You should not feed cheese to horses, cats, and dog.'
+    }
     if (food == "bread"){
       document.getElementById("output").innerHTML = "You should never feed bread to ducks, geese, birds and swans, because they have no nutritional value for them.";
     }
