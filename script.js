@@ -5,9 +5,11 @@ let food;
     food = document.getElementById("food").value;
     if (food == "avacado"){
       document.getElementById("output").innerHTML = "You should not feed avacado to birds, donkeys, rabbits, ducks and horses.";
+      document.querySelector('.hello').innerHTML = `<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcgjA0QWHUhbuurtfTwhD24YIiHZ5nKrpVKw&s"></img>`;
     }
     if (food == "corn"){
       document.getElementById("output").innerHTML = "You should only feed little amounts of corn to squirrels, because too much is bad for them.";
+      document.querySelector('.hello').innerHTML = `<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn1401IN1WOOun4ODycmY4fnJfeyofX7LKzg&s"></img>`
     }
     if (food == "chocolate"){
       document.getElementById("output").innerHTML = "You should not feed chocolate to ducks, squirrels, dogs, cats, and birds.";
